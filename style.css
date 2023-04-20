@@ -55,6 +55,7 @@ body {
 
 .form {
   background-color: white;
+  flex: 1;
   box-shadow: 5px 2px 5px rgba(128, 128, 128, 0.3);
 }
 
@@ -90,12 +91,20 @@ p {
 .form-items {
   display: flex;
   flex-direction: column;
-  margin-top: 16px;
+  margin-top: 20px;
 }
 
 .form-row {
   display: flex;
   flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  padding-right: 60px;
 }
 
 label, input {
@@ -117,14 +126,12 @@ input {
 }
 
 input:focus {
-  border: 2px solid rgba(0, 140, 255, 0.658);
-  
+  border: 1px solid rgba(0, 140, 255, 0.658);
 }
 
 form {
-  margin-right: 80px;
   margin-top: 10px;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
 .flex-column {
